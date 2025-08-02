@@ -45,8 +45,6 @@ const project_summary =
     };
   });
 
-console.log('Project colours:', project_colours);
-
 const processedFeatures = processFeatures(props.geoJSON, project_colours);
 
 function findCentre(coordinates: Position[]): Position {
